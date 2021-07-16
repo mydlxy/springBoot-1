@@ -13,7 +13,7 @@ import java.util.HashMap;
 public class ResponseEntity {
     int status = 200;
 
-    String message = "ok";
+    String message = "OK";//ok
 
     Object data = new HashMap();
 
