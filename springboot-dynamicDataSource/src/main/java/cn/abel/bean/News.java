@@ -1,11 +1,19 @@
 package cn.abel.bean;
 
-
+/**
+ * 这是一个user类的无用注释
+ *
+ */
 public class News {
+    /*id 身份证*/
     private Integer id;
+    /*头衔*/
     private String title;
+    /*职位内容*/
     private String content;
+    /*图片路径*/
     private String imagePath;
+    /*数量总和之类的*/
     private Integer readSum;
 
     public Integer getId() {
